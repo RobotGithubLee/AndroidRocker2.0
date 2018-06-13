@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AndroidRocker 2.0.iml" filepath="$PROJECT_DIR$/AndroidRocker 2.0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/KqwRockerDemo.iml" filepath="$PROJECT_DIR$/KqwRockerDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/KqwRockerDemo.iml" filepath="$PROJECT_DIR$/KqwRockerDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/KqwRockerLibrary/KqwRockerLibrary.iml" filepath="$PROJECT_DIR$/KqwRockerLibrary/KqwRockerLibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+    </modules>
+  </component>
+</project>

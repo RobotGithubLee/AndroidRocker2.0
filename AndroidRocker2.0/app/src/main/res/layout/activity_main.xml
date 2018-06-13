@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:kongqw="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+    <Switch
+        android:id="@+id/swtch_auto"
+        android:typeface="normal"
+        android:textOn="@string/open"
+        android:textOff="@string/close"
+        android:layout_alignParentTop="true"
+        android:switchMinWidth="60dp"
+        android:switchPadding="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <com.kongqw.rockerlibrary.view.RockerView
+        android:id="@+id/rockerView_right"
+        android:layout_width="260dp"
+        android:layout_height="260dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        kongqw:areaBackground="@mipmap/view_big"
+        kongqw:rockerBackground="@mipmap/view_small"
+        kongqw:rockerRadius="40dp" />
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/recvdata"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <Switch
+            android:id="@+id/swtch"
+            android:textOn="@string/open"
+            android:textOff="@string/close"
+            android:visibility="gone"
+            android:layout_width="227dp"
+            android:layout_height="63dp" />
+
+        <Button
+            android:id="@+id/send"
+            android:text="@string/send"
+            android:layout_width="wrap_content"
+            android:visibility="invisible"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+
+</RelativeLayout>
